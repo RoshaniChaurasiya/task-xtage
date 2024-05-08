@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+  background-color: #414342;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.all-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4f5150;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.all-button:hover {
+  background-color: #024fdd;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff0090;
+}
+
+.model-card {
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #024fdd;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.model-card:hover {
+  background: #ff0090;
+  color: #fff;
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+
+.model-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.model-card p {
+  margin-bottom: 10px;
+}
+
+.model-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #4f5150;
+}
+
+.try-model {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #4f5150;
+}
+
+.try-model h1 {
+  color: #fff;
+}
+
+.try-model-form {
+  margin-bottom: 20px;
+}
+
+.try-model-form input {
+  width: calc(80% - 50px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.try-model-form button {
+  padding: 10px 30px;
+  background-color: #4f5150;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.try-model-form button:hover {
+  background-color: #024fdd;
+}
+
+.try-model-result {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #4f5150;
 }

@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+#######################################################################################################################
+# AI Model Showcase
+
+This project is a showcase for various AI models. It allows users to browse through different models, try them out without writing any code, and compare them based on various metrics.
+
+## Overview
+
+The AI Model Showcase is a web application built using React, a JavaScript library for building user interfaces. It also utilizes React Router for navigation and Material-UI for styling.
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **React Router**: Declarative routing for React.
+- **Material-UI**: React components for faster and easier web development.
+
+## Page Load Time
+
+The average page load time of the application is approximately X seconds. This time was measured using the browser's developer tools.
+
+## Optimizations
+
+To decrease the load time and increase performance, the following optimizations were implemented:
+
+- Code splitting for faster initial load
+- Lazy loading of components
+- Minification and compression of static assets
+- Server-side rendering (if applicable)
+- Caching of API responses
+- Image optimization
+- Removing unnecessary dependencies
