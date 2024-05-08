@@ -10,7 +10,7 @@
   align-items: center;
   flex-direction: column;
   padding: 10px 20px;
-  background-color: #414342;
+  background-color: #edf2fb;
 }
 
 .container {
@@ -23,7 +23,7 @@
   display: inline-block;
   padding: 10px 20px;
   color: #fff;
-  background-color: #4f5150;
+  background-color: #ff6289;
   border: none;
   border-radius: 5px;
   text-decoration: none;
@@ -36,7 +36,7 @@
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #ff0090;
+  color: #ff6289;
 }
 
 .model-card {
@@ -44,14 +44,12 @@ h1 {
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
-  background-color: #024fdd;
-  color: #fff;
+  background-color: #c1d3fe;
   transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
 .model-card:hover {
-  background: #ff0090;
-  color: #fff;
+  background: #abc4ff;
   transform: translateY(-7px);
   cursor: pointer;
 }
@@ -72,7 +70,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-color: #4f5150;
+  background-color: #edf2fb;
 }
 
 .try-model {
@@ -81,11 +79,11 @@ h1 {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-color: #4f5150;
+  background-color: #edf2fb;
 }
 
 .try-model h1 {
-  color: #fff;
+  color: #ff6289;
 }
 
 .try-model-form {
@@ -102,7 +100,7 @@ h1 {
 
 .try-model-form button {
   padding: 10px 30px;
-  background-color: #4f5150;
+  background-color: #ff6289;
   color: #fff;
   border: none;
   border-radius: 0 5px 5px 0;
